@@ -69,7 +69,7 @@ dependencies {
 	implementation 'com.android.support:recyclerview-v7:27.1.+'
 	implementation 'com.android.support:design:27.1.+'
 	implementation 'com.google.android.gms:play-services-cast:8.1.0'
-	implementation 'com.sothree.slidinguppanel:library:3.2.1'
+	implementation 'com.sothree.slidinguppanel:library:3.4.0'
 	implementation 'de.hdodenhof:circleimageview:3.1.0'
 	implementation 'com.shehabic.droppy:Droppy:0.6.0@aar'
 	implementation group: 'org.fourthline.cling', name: 'cling-core', version:'2.1.2'
