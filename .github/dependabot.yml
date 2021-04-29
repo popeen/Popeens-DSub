@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.eclipse.jetty:jetty-servlet
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: org.eclipse.jetty:jetty-client
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: org.eclipse.jetty:jetty-server
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: com.android.tools.build:gradle
+    versions:
+    - 4.1.2
+  - dependency-name: com.google.android.gms:play-services-cast
+    versions:
+    - 19.0.0
